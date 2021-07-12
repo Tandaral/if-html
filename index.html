@@ -4,9 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
     <title>Моя первая страница</title>
 </head>
 <body>
 <a href="about/index.html">об авторе</a>
+<hr>
+<h3>Почему Front-end &#129300;</h3>
+    <p>Я выбрал направление Front-end разработки т.к. нравится<br> 
+        видить результат своей работы сразу и эксперементировать.&#128522;</p>
+<h4>Cильные качества</h4>
+    <li>Могу есть одной рукой &#9786;</li>
+    <li>Могу слышать в темноте &#9728;</li>
+    <li>ICQ: выше среднего</li>
+<img src="img/front-back.jpg" alt="front-back">
+<ol>
+    <li>Знакомство с Web</li>
+        <ul>
+            <li>Краткая история Web и что такое интернет.</li>
+            <li>Как устроен браузер и как он получает страницы по сети.</li>
+            <li>Что такое Git?</li>
+            <li>Создание первого репозитория.</li>
+            <li>О файле .gitignore</li>
+        </ul>
+    <li>HTML-верстка - первые шаги</li>
+        <ul>
+            <li>Настройка рабочей среды.</li>
+            <li>Краткая история HTML.</li>
+            <li>Какие бывают теги и что такое атрибут.</li>
+            <li>Теги для работы с текстом.</li>
+            <li>Создание собственной страницы.</li>
+        </ul>
+    <li>Погружение в HTML-разметку</li>
+        <ul>
+            <li>Мета-теги.</li>
+            <li>Мнемоники.</li>
+            <li>Тег для работы с изображениями.</li>
+            <li>Теги бля работы со списками.</li>
+            <li>Теги для работы с таблицами.</li>
+            <li>Теги для работы с формами.</li>
+            <li>Div-блоки.</li>
+        </ul>
+</ol>
+<table border="1" width="100%">
+    <thead>
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><xmp><table></xmp></td>
+            <td>Defines a table</td> 
+        </tr>
+        <tr>
+            <td><xmp><tr></xmp></td>
+            <td>Defines a row in a table</td>
+        </tr>
+        <tr>
+            <td><xmp><th></xmp></td>
+            <td rowspan="2">Defines a "header cell"/"cell" in a table</td>
+        </tr>
+        <tr>
+            <td><xmp><td></xmp></td>
+        </tr>
+        <tr>
+            <td colspan="2">Rarely used</td>
+        </tr>
+        <tr>
+            <td><xmp><caption></xmp></td>
+            <td>Defines a table caption</td>
+        </tr>
+        <tr>
+            <td><xmp><thead></xmp></td>
+            <td>Groups the header content in a table</td>
+        </tr>
+        <tr>
+            <td><xmp><tbody></xmp></td>
+            <td>Groups the body content in a table</td>
+        </tr>
+        <tr>
+            <td><xmp><tfoot></xmp></td>
+            <td>Groups the footer content in a table</td>
+        </tr>
+    </tbody>
+</table>
+<form action="/" method="GET">
+    <fieldset>
+        <legend>My first form</legend>
+        <label for="register-name">Name</label><br>
+        <input id="register-name" type="text" name="name" required placeholder="Name"><br>
+        <label for="Email">Email</label><br>
+        <input id="Email" type="text" name="email" required><br>
+        <label for="Password">Password</label><br>
+        <input id="Password" type="password" name="password" required><br>
+        <label for="range">Your programming level</label><br>
+        <input type="range" name="range" id="range" min="1" max="10"><br>
+        <br>
+        <span>What does HTML stand for?</span><br>
+        <br>
+        <input type="checkbox">
+        <span>Hyperlinks and Text Markup Language</span><br>
+        <input type="checkbox">
+        <span>Home Tool Markup Language</span><br>
+        <input type="checkbox">
+        <span>Hyper Text Markup Language</span><br>
+        <br>
+        <span>What does HTML stand for?</span><br>
+        <br>
+        <input type="radio">
+        <span>Hyper Text Translate Protocol</span><br>
+        <input type="radio">
+        <span>Hyper Text Transmission Protocol</span><br>
+        <input type="radio">
+        <span>Hyper Text Transfer Protocol</span><br>
+        <label for="Comment">Comment</label><br>
+        <textarea maxlength="500" id="Comment" name="comment" placeholder="Comment"></textarea><br>
+        <label>What does HTML stand for?</label><br>
+        <select name="select">
+            <option value="1" selected>Your answer</option>
+            <option value="2">Not your answer</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Send">
+    </fieldset>
+</form>
 </body>
 </html>
