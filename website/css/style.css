@@ -59,6 +59,10 @@
     flex-direction: column;
     align-items: center;
 }
+.item_wrapper {
+    height: 100%;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
@@ -100,7 +104,5 @@ h1 {
     padding-top: 64px;
     padding-left: 103px;
     padding-bottom: 120px;
-}
-.copyright {
-    background-color: #10367C;
+    width: 100%;
 }
