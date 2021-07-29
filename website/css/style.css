@@ -165,7 +165,9 @@ h1 {
 }
 
   /*+++++++++++++++Block+++++++++++++++*/
-
+.block {
+    height: 100vh;
+}
 .first_block {
     display: flex;
     flex-direction: column;
