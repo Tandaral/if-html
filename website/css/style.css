@@ -68,7 +68,7 @@
     text-decoration: none;
     margin-left: 24px;
 }
-.nav :hover {
+.nav a:hover {
     border-bottom: solid 4px #F5BD41;
 }
 
