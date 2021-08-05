@@ -5,34 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Triphouse project</title>
 </head>
 <body>
-    <div class="container">
-
-        <!--       Header         -->
+        <!--       Sprite         -->
         
+          
+    <div class="container">
+        <!--       Header         -->
         <div class="header">
             <div class="header_inner">
                 <div class="header_logo">
-                    <img src="img/logo_vector.svg" alt="#">
+                    <svg class="header_icon">
+                        <use xlink:href="../img/sprite.svg#logo_vector"></use>
+                    </svg>
                 </div>
                 <div class="nav">
                     <a class="nav_link" href="#">Stays</a>
                     <a class="nav_link" href="#">Attractions</a>
                     <div class="nav_link_icon">
-                        <a href="#"><img src="img/Night.svg" alt="#"></a>
+                        <a href="#">
+                            <svg class="night">
+                            <use xlink:href="#Night"></use>
+                          </svg></a>
                     </div>
                     <div class="nav_link_icon">
-                        <a href="#"><img src="img/AccountCircle.svg" alt="#"></a>
+                        <a href="#">
+                            <svg class="account">
+                                <use xlink:href="#AccountCircle"></use>
+                              </svg>
+                        </a>
                     </div>
                 </div>
             </div>
-           
-        
 
          <!--       Intro        -->
-
             <div class="intro">
                 <div class="intro_inner"><h1>Discover stays <br>
                 to live, work or just relax</h1></div>
@@ -66,32 +74,40 @@
         <div class="item_container">
             <div class="item">
                 <div class="item_wrapper">
-                    <img class="item_icon" src="img/Support.png">
+                    <svg class="item_support">
+                        <use xlink:href="#Support"></use>
+                    </svg>
                 </div>
                 <div class="item_title">Support 24/7</div> 
             </div>
             <div class="item">
                 <div class="item_wrapper">
-                    <img class="item_icon" src="img/Communicate.png">
+                    <svg class="item_communicate">
+                        <use xlink:href="#Communicate"></use>
+                    </svg>
                 </div>
                 <div class="item_title">Communicate directly</div> 
             </div>
             <div class="item">
                 <div class="item_wrapper">
-                    <img class="item_icon" src="img/Book.png">
+                    <svg class="item_book">
+                        <use xlink:href="#Book"></use>
+                    </svg>
                 </div>
                 <div class="item_title">Book online</div> 
             </div>
             <div class="item">
                 <div class="item_wrapper">
-                    <img class="item_icon" src="img/Real guest.png">
+                    <svg class="item_real">
+                        <use xlink:href="#Real"></use>
+                    </svg>
                 </div>
                 <div class="item_title">Real guest reviews</div> 
             </div>
         </div>
     </div>
+    
         <!--       Footer      -->
-        
         <div class="footer">
             <ul class="footer_column">
                 <li class="footer_title">About</li>

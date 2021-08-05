@@ -40,8 +40,7 @@
 
 .header {
     background-image: url("../img/castelmezzano.svg");
-    height: 900px;
-    max-width: 1440px
+    height: 100vh;
 }
 .header_inner {
     display: flex;
@@ -51,6 +50,11 @@
 }
 .header_logo {
     margin-right: 104px;
+}
+.header_icon{
+    width: 205px;
+    height: 40px;
+    color: #3077C6;
 }
 .nav {
     display: flex;
@@ -68,8 +72,18 @@
     text-decoration: none;
     margin-left: 24px;
 }
-.nav :hover {
+.nav a:hover {
     border-bottom: solid 4px #F5BD41;
+}
+.night {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+}
+.account {
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
 }
 
 /*+++++++++++++++Intro+++++++++++++++*/
@@ -206,6 +220,26 @@ h2 {
     margin-top: 120px;
     margin-bottom: 20px;
 }
+.item_support {
+    width: 75px;
+    height: 91px;
+    color: #3077C6;
+}
+.item_communicate {
+    width: 83px;
+    height: 83px;
+    color: #3077C6;
+}
+.item_book {
+    width: 100px;
+    height: 67px;
+    color: #3077C6;
+}
+.item_real {
+    width: 92px;
+    height: 83px;
+    color: #3077C6;
+}
 /*+++++++++++++++Footer+++++++++++++++*/
 
 .footer {
@@ -241,4 +275,43 @@ h2 {
     padding-left: 103px;
     padding-bottom: 120px;
     width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .block {
+        max-width: 970px;
+        
+    }  
+}
+@media screen and (max-width: 992px) {
+    .block {
+        width: 750px;
+    }  
+}
+@media screen and (max-width: 768px) {
+    .block {
+        max-width: 533px;
+    }  
+}
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .block {
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        
+    }  
+    .item_container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .item_title {
+        
+    }
+
 }
