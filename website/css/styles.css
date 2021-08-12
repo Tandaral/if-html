@@ -327,3 +327,6 @@ footer a {
     .copyright_text {
         font-size: 12px;
     }
+    .footer_content {
+        text-decoration: underline;
+    }
