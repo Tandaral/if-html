@@ -8,7 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -235,13 +235,9 @@ footer a {
 /*+++++++++++++++Media+++++++++++++++*/
 
 @media (max-width: 1440px) {
-
 }
-
 @media (max-width: 1280px) {
-
 }
-
 @media (max-width: 768px) {
     .menu {
         display: flex;
@@ -249,26 +245,104 @@ footer a {
         height: 16px;
     }
 }
-
-@media (max-width: 600px){
-    
+@media (max-width: 600px){ 
 }
-
 @media (max-width: 520px){
-   
 }
-
 @media screen and (max-width: 425px) {
 
-    .header {
-       padding: 0;
-       margin: 0;
-    }
+    /*---Header---*/
 
-   .search_panel {
+    .header {
+       padding: 15px 15px 40px;
+    }
+    .logo {
+        width: 122px;
+        height: 24px;
+    }
+    .nav_link_stays {
+        display: none;
+    }
+    .nav_link_attractions {
+        display: none;
+    }
+    .night {
+        width: 16px;
+        height: 16px;
+    }
+    .account {
+        width: 24px;
+        height: 24px;
+    }
+    .menu {
+        width: 24px;
+        height: 16px;
+    }
+    .intro {
+        margin-top: 52px;
+        margin-bottom: 31px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .intro_text {
+        display: none;
+    }
+    .search_panel {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5BD41;
         flex-wrap: wrap;
+        width: 328px;
+        height: 232px;
+        margin-left: auto;
+        margin-right: auto;
    }
-  
+    .search_input {
+        flex-basis: auto;
+    }
+    .search_line_city {
+        width: 312px;
+        height: 48px;
+        font-size: 15px;
+        margin-bottom: 8px;
+   }
+    .search_line_right {
+        width: 152px;
+        height: 48px;
+        margin-right: 8px;
+        
+   }
+    .search_line_left {
+        width: 152px;
+        height: 48px;
+   }
+   .search_line_date {
+        font-size: 15px;
+        border: none;
+   }
+   
+    .search_line_room {
+        width: 312px;
+        height: 48px;
+        font-size: 15px;
+        margin: 8px;
+   }
+    .submit {
+        width: 312px;
+        height: 48px;
+        flex-basis: auto;
+        font-size: 19px;
+    }
+    .downloads {
+        margin-top: 32px;
+    }
+    /*---Offer---*/
+
     .offer_section {
         padding: 24px 73px 40px;
    }
@@ -305,6 +379,9 @@ footer a {
         width: 64px;
         height: 58px;
     }
+
+    /*---Footer---*/
+
     footer{
         text-align: center;
         padding: 40px 20px;
