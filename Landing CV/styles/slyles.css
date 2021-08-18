@@ -1,6 +1,5 @@
 @import url("fonts.css");
 
-
 *{
     margin: 0;
     padding: 0;
@@ -96,6 +95,7 @@ h2+h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 70px;
 }
 
 .skills img{
@@ -108,55 +108,41 @@ h2+h2{
     justify-content: space-between;
     padding: 0 12px;
 }
+.skills span{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
 .skills_info{
     display: flex;
     flex-direction: column;
 }
-
-
+.stars img{
+    margin-right: 9px;
+}
 
 .skills_panel_hide {
-    display: flex;
-    flex-wrap: wrap;
+    display: none;
 }
-.read-more-checker {
-    width: 100%;
-}
-.read-more-button {
-width: 100%;
-}
-
 .skills_hide {
-    max-height: 400px;
-    overflow: hidden;
-    position: relative;
-}
-.skills_hide .l-200 {
-    max-height: 200px;
+    padding-right: 24px;
+    padding-top: 50px;
 }
 
-.skills_hide .l-300 {
-    max-height: 300px;
-}
-
-.read-more-checker {
-    opacity: 0;
+/*+++++++++++++++Arrow+++++++++++++++*/
+.checker {
+    display: none;
     position: absolute;
 }
-.read-more-checker:checked ~ .skills_hide {
-    max-height: none;
+.label_button {
+    background-image: url("../img/Arrow-down.svg");
+    position: absolute;
+    font-size: 0;
+    width: 32px;
+    height: 20px;
 }
-.read-more-checker:checked ~ .skills_hide {
-    opacity: 0;
-    transition: 0.3s;
-}
-.read-more-checker ~ .read-more-button:before {
-    content: "1111";
-    background-image: url(../img/Arrow-down.svg);
-    im
-}
-.read-more-checker:checked ~ .read-more-button:before {
-content: "2222";
-background-image: url(../img/Arrow-up.svg);
+
+.checker:checked ~ .skills_panel_hide {
+    display: flex;
+    flex-wrap: wrap;
 }
